@@ -1,0 +1,35 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f8ff;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.clock, .stopwatch {
+  margin: 20px 0;
+}
+
+#clock, #stopwatch {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
